@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+         div{
+            width:100px;
+            height:100px;
+            border:3px solid red;
+            padding:5px 5px;  
+        
+           
+        
+        } 
+
+        /* #contentBox{
+            box-sizing: content-box;
+
+        }
+
+        #borderBox{
+            box-sizing: border-box;
+
+        } */
+
+        .pb {
+                width: 500px;
+                height: 500px;
+                border: 1px solid black ;
+                display: flex;/* 부모컨테이너로지정 + flex-direction 속성값이 row 가로로 기본 설정 되있음 */
+                /* flex-direction: row; */
+                justify-content: center;
+                align-items: center;
+                /* flex-wrap: wrap; */
+                flex-flow: column wrap; /*세로 방향인데 위에서 아래로*/
+        }
+    
+</style>
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="contentBox">박스1박스1박스1박스1박스1박스1박스1박스1</div>
+    <div>박스2</div>
+    <div id="borderBox">박스3</div> -->
+
+    <div class="pb"> <!--부모박스-->
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+
+    </div>
+    
+</body>
+</html>
