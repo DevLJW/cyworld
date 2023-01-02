@@ -175,10 +175,10 @@
     height:472px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
 
     padding-left: 5px;
-    background-color: black;
+    
     
    
 
@@ -189,14 +189,17 @@
 .wrapper__right__header{
 
     width: 510px;
-    height: 20px;
+   
+ 
     display: flex;
     flex-direction: row;
     justify-content: end;
+    align-items: center;
+  
 
   
-    padding: 0px 10px;
-    background-color: violet;
+    padding: 0px 14px;
+    
  
    
 
@@ -207,10 +210,21 @@
 
 .wrapper__right__body{
        width: 510px;
-       height: 475px;
+       height: 445px;
        border: 1px solid gray;
        border-radius: 15px;
-       background-color: red;
+    
 
 
 }
+
+
+.right__header__title{
+    width:180px;
+
+}
+
+ .right__header__title,.wrapper__right__header{
+    color:#55B2E4;
+    font-size: 9px;
+} 
