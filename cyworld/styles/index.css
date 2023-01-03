@@ -123,12 +123,9 @@
  
     align-items: flex-start;
     
-    
-
-  
-
 
 }
+
 .profilelist{
     margin-bottom: 10px;
     font-size: 10px;
@@ -175,7 +172,9 @@
     height:472px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
+   
+
 
     padding-left: 5px;
     
@@ -186,45 +185,65 @@
     
 }
 
+
 .wrapper__right__header{
+  
 
     width: 510px;
+    
    
  
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: center;
-  
+    align-items: flex-end;
+ 
 
-  
     padding: 0px 14px;
     
  
-   
 
 }
-
-
-
 
 .wrapper__right__body{
-       width: 510px;
-       height: 445px;
-       border: 1px solid gray;
-       border-radius: 15px;
-    
-
+    width: 510px;
+    height: 430px;
+    border: 1px solid gray;
+    border-radius: 15px;
+ 
 
 }
+
+
+
 
 
 .right__header__title{
-    width:180px;
-
+    width:400px;
+    font-size: 16px;
+ 
 }
+
+
 
  .right__header__title,.wrapper__right__header{
     color:#55B2E4;
-    font-size: 9px;
+    
+  
 } 
+
+.wrapper__right__header{
+    font-size: 9px;
+
+
+}
+
+iframe{
+    
+    width: 100%;
+    height: 100%;
+    border: none; 
+    /* iframe에서 자동으로 제공해주는 테두리 없애기 */
+}
+
+
