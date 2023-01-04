@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/game.css" rel="stylesheet">
+    <title>game</title>
+</head>
+<body>
+    <!-- 제일 바깥부분 영역 -->
+    <div class="wrapper">      
+        <div class="wrapper__header">
+          <div class="header__title">
+             <div class="title">GAME</div>
+             <div class="subtitle">TODAY CHOICE</div>
+
+          </div>
+          <div class="divideLine"></div>
+        </div>
+
+        <div class="game__container">
+            <img src="./images/word.png">
+            <div class="game__title">끝말잇기</div>
+            <div class="game__subtitle">제시어 :<span id="word">테스트</span> </div>
+            <div class="word__text">
+                <!-- class는 css접근용, id는 javascript에서 접근하기 위한 용도로 선언 -->
+                <input class="textbox" id="myword" placeholder="단어를 입력 하세요.">
+                <button class="search">입력</button>
+
+
+            </div>
+            <div id ="result" class="word_result">결과!</div>
+        </div>
+        <div class="game__container">
+
+    
+                <img src="./images/lotto.png">
+                <div class="game__title">LOTTO</div>
+                <div class="game__subtitle"><span id="word">버튼을 누르세요.</span> </div>
+
+                <div class="word__text2">
+                   
+                   <span class="number">3</span>
+                   <span class="number">5</span>
+                   <span class="number">10</span>
+                   <span class="number">24</span>
+                   <span class="number">30</span>
+                   <span class="number">34</span>
+
+               
+        
+
+
+        </div>
+
+   
+        <button class="search2">Button</button>  
+
+    </div>
+
+        
+</body>
+</html>
