@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>000님의 미니홈피 입니다 :: 사이좋은 사람들, 싸이월드</title>
     <link href="./styles/index.css" rel="stylesheet">
+    <script src="./index.js"></script>
     <script src="https://kit.fontawesome.com/3d375c667d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -90,16 +91,16 @@
                     <div class="wrapper__right__body">
                         <!-- iframe = 다른 페이지에 있는 정보 불러오기 -->
                         
-                        <iframe src="./home.html">    </iframe>
+                        <iframe id="contentFrame" src="./home.html">    </iframe>
                     </div>
 
                 </div>
 
 
                 <div class="navigation">
-                        <div class="navigation__item" id="menuHome">홈</div>
-                        <div class="navigation__item"id="menuJukeBox">쥬크박스</div>
-                        <div class="navigation__item" id="menuGame">게임</div>       
+                        <div class="navigation__item" id="menuHome" onclick="menuHome()">홈</div>
+                        <div class="navigation__item" id="menuJukeBox" onclick="menuJukeBox()">쥬크박스</div>
+                        <div class="navigation__item" id="menuGame" onclick="menuGame()">게임</div>       
                 </div>
 
              
