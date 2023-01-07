@@ -246,4 +246,33 @@ iframe{
     /* iframe에서 자동으로 제공해주는 테두리 없애기 */
 }
 
+.navigation{
+    width: 70px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 795px;
+    top: 140px;
+    
+
+}
+
+.navigation__item{
+    width: 100%;
+    height: 30px;
+    background-color: #298eb5;
+    border: 1px solid black;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+
+
+
+}
+
 
